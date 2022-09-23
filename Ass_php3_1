@@ -1,0 +1,16 @@
+<?php
+// 1. Write a PHP script to : - 
+//a) transform a string all uppercase letters.
+//b) transform a string all lowercase letters.
+//c) make a string&#39;s first character uppercase.
+//d) make a string&#39;s first character of all the words uppercase.
+
+$str="php assinghment qns no 1";
+$res=strtoupper($str);
+$res1=strtolower($str);
+$res2=ucfirst($str);
+$res3=ucwords($str);
+echo $res;
+echo $res1;
+echo $res2;
+echo $res3;
