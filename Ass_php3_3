@@ -1,0 +1,16 @@
+<?php
+//Write a PHP script to check whether a string contains a specific string?  
+//Sample string : 'The quick black fox jumps over the white dog.'
+//Check whether the said string contains the string 'over'.
+
+
+$str1 = 'The quick black fox jumps over the white dog.';
+if (strpos($str1,'over') !== false) 
+ {
+    echo 'present.';
+ }
+else
+ {
+    echo 'not present.';
+ }
+?>
