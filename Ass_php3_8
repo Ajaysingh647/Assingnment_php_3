@@ -1,0 +1,8 @@
+<?php
+// Write a PHP script to replace the first 'the' of the following string with 'That'. 
+//Sample date : 'the moon is round in shape'
+//Expected Result : That moon is round in shape.
+
+$str = 'the moon is round in shape';
+echo preg_replace('/the/', 'That', $str, 1)."\n"; 
+?>
