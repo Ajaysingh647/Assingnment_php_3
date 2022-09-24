@@ -1,0 +1,10 @@
+<?php
+//Write a PHP script to format values in currency style.  
+//Sample values : value1 = 65.45, value2 = 104.35
+//Expected Result : 169.80
+
+
+$var1=129.34;
+$var2=23.12;
+$res=$var1+$var2;
+echo $res;
