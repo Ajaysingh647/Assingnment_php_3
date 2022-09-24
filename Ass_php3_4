@@ -1,0 +1,8 @@
+<?php
+//. Write a PHP script to convert the value of a PHP variable to string. 
+
+$var="AJAYSINGH";
+$res=strval($var);
+echo $res;
+var_dump($res);
+
